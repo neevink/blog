@@ -1,0 +1,14 @@
+.Page{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.Page-content-wrapper{
+    width: 1200px;
+}
+
+.Page-content{
+    display: flex;
+    flex-direction: row;
+}

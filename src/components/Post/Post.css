@@ -1,0 +1,40 @@
+
+.Post{
+    margin: 15px 0 0 15px;
+    width: 700px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 8px #d0d0d0;
+
+    background-color: white;
+}
+
+.Post-content{
+    padding: 50px 20px 20px 20px;
+}
+
+.Post-author{
+}
+
+.Post-author-photo{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+
+    border-radius: 50%;
+
+    transform: translate(15px, 15px);
+    cursor: pointer;
+}
+
+.Post-author-name{
+    position: relative;
+
+    transform: translate(80px, 20px);
+    cursor: pointer;
+}
+
+.Post-author-time{
+    position: relative;
+
+    transform: translate(80px, 25px);
+}
