@@ -12,7 +12,7 @@ const Page: React.FC = (props: React.Props<any>) => {
             <div className={"Page-content-wrapper"}>
                 <Header></Header>
                 <div className={"Page-content"}>
-                    <NavigationBar></NavigationBar>
+                    <NavigationBar/>
                     <div>
                         {props.children}
                     </div>

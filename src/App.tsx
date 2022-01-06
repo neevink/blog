@@ -1,16 +1,21 @@
 import React from 'react';
+
+import {Routes, Route} from "react-router-dom"
+
 import './App.css';
-import Post from "./components/Post/Post"
-import Page from "./components/Page/Page";
+import NewsPage from "./components/NewsPage/NewsPage";
+import ProfilePage from "./components/ProfilePage/ProfilePage";
+import MessengerPage from "./components/MessengerPage/MessengerPage"
 
 function App() {
     return (
         <div className="App">
-            <Page>
-                <Post/>
-                <Post/>
-                <Post/>
-            </Page>
+            <Routes>
+                <Route path={"/profile"} element={<ProfilePage/>}/>
+                <Route path={"/news"} element={<NewsPage/>}/>
+                <Route path={"/messenger"} element={<MessengerPage/>}/>
+                <Route path={"*"} element={<NewsPage/>}/>
+            </Routes>
         </div>
     );
 }

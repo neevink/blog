@@ -4,16 +4,12 @@ import NavigationBar from "../NavigationBar/NavigationBar";
 import Post from "../Post/Post";
 import Page from "../Page/Page";
 
-const NewsPage: React.FC = () => {
+const MessengerPage: React.FC = () => {
     return (
         <Page>
-            <Post/>
-            <Post/>
-            <Post/>
-            <Post/>
-            <Post/>
+            Messenger Page
         </Page>
     );
 };
 
-export default NewsPage;
+export default MessengerPage;
